@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="product-container">
+            <div class="product">
+                <img src="./sources/iphone image.webp">
+                <div class="productdetails">
+                    <p>iPhone 15 pro</p>
+                    <p id="price">Price : Rs. 70,000</p>
+                    <button id="cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./sources/iphone image.webp">
+                <div class="productdetails">
+                    <p>iPhone 16 pro</p>
+                    <p id="price">Price : Rs. 90,000</p>
+                    <button id="cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./sources/iphone image.webp">
+                <div class="productdetails">
+                    <p>iPhone 13 pro</p>
+                    <p id="price">Price : Rs. 30,000</p>
+                    <button id="cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="checkout-container">
+            <div class="checkout-details">
+                <h2>Ajio fash.Inc</h2>
+                <div id="cart-items">
+                <p id="empty-cart">Your cart is empty.</p>
+                </div>
+                <div id="cart-total" class="hidden">
+                <p>Total: <span id="total-price">$0.00</span></p>
+                <button id="checkout-btn">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
